@@ -1503,6 +1503,7 @@ module.exports = {
             "导入时间和歌单大小有关，请耐心等待",
         ],
     },
+    srcUrl: "https://gitee.com/maotoumao/plugins-list1/raw/master/qq.js",
     primaryKey: ["id", "songmid"],
     supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
     async search(query, page, type) {
